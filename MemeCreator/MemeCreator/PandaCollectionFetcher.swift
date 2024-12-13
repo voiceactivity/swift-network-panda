@@ -62,7 +62,13 @@ class PandaCollectionFetcher: ObservableObject {
          After your data returns, you’ll check the URL response to verify that you didn’t receive an error.
          This code generates a badRequest error if the response’s status code isn’t equal to 200, indicating a successful request.
          */
-        guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw FetchError.badRequest }
+         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+             let httpResponse = response as? HTTPURLResponse
+             let statusCode = httpResponse?.statusCode ?? 0
+             let errMessage = httpResponse?.description ?? ""
+             print("ERROR: Status code: \(statusCode). Error message: \(errMessage)")
+             throw FetchError.badRequest
+         }
 
         /*
          Step 8

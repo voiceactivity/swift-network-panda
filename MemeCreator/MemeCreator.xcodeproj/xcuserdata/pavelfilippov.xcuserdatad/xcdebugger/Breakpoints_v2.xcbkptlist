@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "52445E24-E89B-4947-AFD2-57B6222EA8CA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MemeCreator/PandaCollectionFetcher.swift"
@@ -18,64 +18,22 @@
             endingLineNumber = "58"
             landmarkName = "PandaCollectionFetcher"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "52445E24-E89B-4947-AFD2-57B6222EA8CA - b5c9c52e6c36186a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MemeCreator.PandaCollectionFetcher.fetchData() async throws -&gt; ()"
-                  moduleName = "MemeCreator.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavelfilippov/Projects/github/swift-network-panda/MemeCreator/MemeCreator/PandaCollectionFetcher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-               <Location
-                  uuid = "52445E24-E89B-4947-AFD2-57B6222EA8CA - 47b9400e972a3440"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for MemeCreator.PandaCollectionFetcher.fetchData() async throws -&gt; ()"
-                  moduleName = "MemeCreator.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavelfilippov/Projects/github/swift-network-panda/MemeCreator/MemeCreator/PandaCollectionFetcher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-               <Location
-                  uuid = "52445E24-E89B-4947-AFD2-57B6222EA8CA - 4e088076b4d7d868"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for MemeCreator.PandaCollectionFetcher.fetchData() async throws -&gt; ()"
-                  moduleName = "MemeCreator.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavelfilippov/Projects/github/swift-network-panda/MemeCreator/MemeCreator/PandaCollectionFetcher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-               <Location
-                  uuid = "52445E24-E89B-4947-AFD2-57B6222EA8CA - ad27e1e2e0987869"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for MemeCreator.PandaCollectionFetcher.fetchData() async throws -&gt; ()"
-                  moduleName = "MemeCreator.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/pavelfilippov/Projects/github/swift-network-panda/MemeCreator/MemeCreator/PandaCollectionFetcher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15D7CF0D-6341-4E4A-8728-F09B81BA0358"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemeCreator/PandaCollectionFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "PandaCollectionFetcher"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
